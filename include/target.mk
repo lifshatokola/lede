@@ -56,7 +56,7 @@ DEFAULT_PACKAGES.router:=\
 	dnsmasq-full firewall iptables ppp ppp-mod-pppoe \
 	block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw kmod-tun \
 	iptables-mod-tproxy iptables-mod-extra ipset ip-full default-settings luci luci-newapi \
-	luci-app-upnp luci-app-autoreboot \
+	luci-app-upnp \
 	luci-app-filetransfer luci-app-ssr-plus\
 	luci-app-turboacc curl ca-certificates
 
