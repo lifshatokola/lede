@@ -111,6 +111,5 @@ define Device/xiaomi_rm1800
 	PAGESIZE := 2048
 	SOC := ipq6000
 	DEVICE_DTS_CONFIG := config@cp03-c1
-	DEVICE_PACKAGES := ipq-wifi-xiaomi_rm1800
 endef
 TARGET_DEVICES += xiaomi_rm1800

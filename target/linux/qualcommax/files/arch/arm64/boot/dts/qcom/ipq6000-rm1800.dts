@@ -34,5 +34,5 @@
 };
 
 &wifi {
-	qcom,ath11k-fw-memory-mode = <2>;
+	qcom,ath11k-fw-memory-mode = <1>;
 };
