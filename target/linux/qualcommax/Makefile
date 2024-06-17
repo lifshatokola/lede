@@ -13,8 +13,10 @@ KERNEL_PATCHVER:=6.1
 include $(INCLUDE_DIR)/target.mk
 DEFAULT_PACKAGES += \
 	kmod-leds-gpio kmod-gpio-button-hotplug \
-	kmod-qca-nss-dp \
-	uboot-envtools \
-	e2fsprogs kmod-fs-ext4 losetup
+	kmod-qca-nss-dp kmod-qca-nss-drv kmod-qca-ssdk \
+	kmod-qca-nss-ecm kmod-qca-nss-drv-bridge-mgr \
+	kmod-qca-nss-drv-vlan kmod-qca-nss-drv-pppoe \
+	kmod-ath11k-ahb wpad-openssl uboot-envtools \
+	e2fsprogs kmod-fs-ext4 losetup autocore-arm
 
 $(eval $(call BuildTarget))
